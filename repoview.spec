@@ -1,12 +1,13 @@
 Summary:	Create static HTML pages of a yum repository
+Summary(pl):	Tworzenie statycznych stron HTML repozytorium yuma
 Name:		repoview
 Version:	0.5.1
 Release:	0.1
 License:	GPL
 Group:		Applications/System
-URL:		http://linux.duke.edu/projects/mini/repoview/
 Source0:	http://linux.duke.edu/projects/mini/repoview/download/%{name}-%{version}.tar.gz
 # Source0-md5:	b9568d9b71df1ee9628592b557d2b981
+URL:		http://linux.duke.edu/projects/mini/repoview/
 Requires:	python >= 2.2
 Requires:	python-cElementTree
 Requires:	python-kid
@@ -19,6 +20,12 @@ repoview allows to easily create a set of static HTML pages in a YUM
 repository, allowing simple browsing of available packages. It uses
 kid templating engine to create the pages and is therefore easily
 customizeable.
+
+%description -l pl
+repoview pozwala ³atwo tworzyæ zbiór statycznych stron HTML w
+repozytorium yuma, umo¿liwiaj±c proste przegl±danie dostêpnych
+pakietów. Wykorzystuje do tworzenia stron silnik szablonów kid, wiêc
+jest ³atwo konfigurowalny.
 
 %prep
 %setup -q
