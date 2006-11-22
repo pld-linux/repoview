@@ -8,6 +8,8 @@ Group:		Applications/System
 Source0:	http://linux.duke.edu/projects/mini/repoview/download/%{name}-%{version}.tar.gz
 # Source0-md5:	b9568d9b71df1ee9628592b557d2b981
 URL:		http://linux.duke.edu/projects/mini/repoview/
+BuildRequires:	rpm-pythonprov
+BuildRequires:	sed >= 4.0
 Requires:	python >= 2.2
 Requires:	python-cElementTree
 Requires:	python-kid
