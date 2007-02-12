@@ -1,5 +1,5 @@
 Summary:	Create static HTML pages of a yum repository
-Summary(pl):	Tworzenie statycznych stron HTML repozytorium yuma
+Summary(pl.UTF-8):   Tworzenie statycznych stron HTML repozytorium yuma
 Name:		repoview
 Version:	0.5.1
 Release:	0.1
@@ -23,11 +23,11 @@ repository, allowing simple browsing of available packages. It uses
 kid templating engine to create the pages and is therefore easily
 customizeable.
 
-%description -l pl
-repoview pozwala ³atwo tworzyæ zbiór statycznych stron HTML w
-repozytorium yuma, umo¿liwiaj±c proste przegl±danie dostêpnych
-pakietów. Wykorzystuje do tworzenia stron silnik szablonów kid, wiêc
-jest ³atwo konfigurowalny.
+%description -l pl.UTF-8
+repoview pozwala Å‚atwo tworzyÄ‡ zbiÃ³r statycznych stron HTML w
+repozytorium yuma, umoÅ¼liwiajÄ…c proste przeglÄ…danie dostÄ™pnych
+pakietÃ³w. Wykorzystuje do tworzenia stron silnik szablonÃ³w kid, wiÄ™c
+jest Å‚atwo konfigurowalny.
 
 %prep
 %setup -q
