@@ -1,5 +1,5 @@
 Summary:	Create static HTML pages of a yum repository
-Summary(pl.UTF-8):   Tworzenie statycznych stron HTML repozytorium yuma
+Summary(pl.UTF-8):	Tworzenie statycznych stron HTML repozytorium yuma
 Name:		repoview
 Version:	0.5.1
 Release:	0.1
