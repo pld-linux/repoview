@@ -1,19 +1,19 @@
 Summary:	Create static HTML pages of a yum repository
 Summary(pl.UTF-8):	Tworzenie statycznych stron HTML repozytorium yuma
 Name:		repoview
-Version:	0.5.1
-Release:	0.1
-License:	GPL
+Version:	0.6.3
+Release:	1
+License:	GPL v2
 Group:		Applications/System
-Source0:	http://linux.duke.edu/projects/mini/repoview/download/%{name}-%{version}.tar.gz
-# Source0-md5:	b9568d9b71df1ee9628592b557d2b981
-URL:		http://linux.duke.edu/projects/mini/repoview/
+Source0:	http://icon.fedorapeople.org/repoview/%{name}-%{version}.tar.gz
+# Source0-md5:	8dee39972881add9727d79ace686ffcc
+URL:		http://icon.fedorapeople.org/repoview/
 BuildRequires:	rpm-pythonprov
 BuildRequires:	sed >= 4.0
-Requires:	python >= 2.2
+Requires:	python >= 2.4
 Requires:	python-cElementTree
-Requires:	python-kid
-Requires:	yum >= 2.3
+Requires:	python-kid >= 0.6.3
+Requires:	yum >= 3.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
